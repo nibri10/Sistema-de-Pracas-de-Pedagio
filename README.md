@@ -11,7 +11,8 @@ Descrição do Trabalho:
 Profa. Cristiane Imamura. 
 Data de entrega de resolução: 15/09/2017 
 Número máximo de alunos por grupo: 3.  
-O código fonte (.java): deve ser encaminhado para o e-mail cimamura@gmail.com. Além disso, deve ser entregue uma cópia impressa do código e o diagrama de classes ( por e-mail). 
+O código fonte (.java):
+Além disso, deve ser entregue uma cópia impressa do código e o diagrama de classes ( por e-mail). 
 Conceitos a serem avaliados: encapsulamento, construtores, membros estáticos, associação e herança.  
 A resolução correta do trabalho corresponderá a 3 pontos de atividade prática na nota do primeiro bimestre.  
 Importante: Para ser analisado, seu código não deve conter erros de compilação, e deve apresentar código documentado (com comentários relevantes). Não deve ser usado API de Coleções. Caso seja verificada cópia do trabalho será dada nota zero a todas as cópias. 
