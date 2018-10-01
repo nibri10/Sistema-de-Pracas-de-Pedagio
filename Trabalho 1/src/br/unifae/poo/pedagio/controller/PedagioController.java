@@ -17,27 +17,23 @@ public class PedagioController {
 
 	public Pedagio getById(int codigo) {
 
-		if (codigo == 0)
-			return null;
-		//Retorna os pedagio a partir do codigo
-		Pedagio[] pedagios = repository.getPedagios();
-
-		for (Pedagio pedagio : pedagios) {
-			if (pedagio.getCodigo() == codigo) {
-				return pedagio;
+		if (codigo != 0){
+			//Retorna os pedagio a partir do codigo
+			for (Pedagio pedagio : repository.getPedagios()) {
+				if (pedagio.getCodigo() == codigo)
+					return pedagio;
 			}
 		}
 		return null;
 	}
 	//verifica se o pedagio está vazio
 	public boolean isNull() {
-		Pedagio[] pedagios = repository.getPedagios();
-		for (Pedagio pedagio : pedagios) {
-			if (pedagio != null) {
-				return false;
-			}
+		for (Pedagio pedagio : repository.getPedagios()){
+			if (pedagio == null)
+				return true;
 		}
-		return true;
+
+		return false;
 	}
 	// Faz a insercao dos veiculos da categoria Passeio
 	public boolean addUtilitarioPasseio(Pedagio pedagio,
